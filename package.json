@@ -1,0 +1,8 @@
+{
+  "name": "typescript-tutorials",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/marisev/typescript-tutorials",
+  "author": "Marina <marina.v.sevostyanova@gmail.com>",
+  "license": "MIT"
+}
