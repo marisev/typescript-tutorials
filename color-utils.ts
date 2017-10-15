@@ -2,6 +2,8 @@ export function hexToRgb(hex: string): {r: number, g: number, b: number} {
     // ff0000
     // f00
 
+    // the sequence of three 2-char-subtrings in the hex color system represent hexadecimal numbers of red, green, blue
+    // in order to convert hex-color to rgb-color we need to get a decimal number from each hexadecimal part.
     if (hex.length === 3) {
         let r = hex[0];
         let g = hex[1];
