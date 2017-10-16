@@ -35,3 +35,6 @@ console.log('hexToRgb("ff0000") -> {r: 255, g: 0, b: 0}: ', hexToRgb('ff0000'));
 console.log('hexToRgb("f00") -> {r: 255, g: 0, b: 0}: ', hexToRgb('f00'));
 console.log('rgbToHex(255, 255, 255).toLowerCase() -> "ffffff": ', rgbToHex(255, 255, 255).toLowerCase());
 console.log('rgbToHex(100, 100, -30).toLowerCase() -> "646400": ', rgbToHex(100, 100, -30).toLowerCase());
+
+let y: never;
+console.log(typeof y); // undefined
